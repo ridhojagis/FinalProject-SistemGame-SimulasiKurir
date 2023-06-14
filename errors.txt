@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 9: 'init' is not a keyword argument or valid child for the screen statement.
-    init:
-        ^
+File "game/script.rpy", line 779: expected statement.
+    fsm_makan = 1
+              ^
+
+File "game/script.rpy", line 785: expected statement.
+    fsm_makan = 1
+              ^
+
+File "game/script.rpy", line 839: expected statement.
+    fsm_makan = 1
+              ^
+
+File "game/script.rpy", line 845: expected statement.
+    fsm_makan = 1
+              ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Jun 14 17:59:47 2023
+Wed Jun 14 23:29:51 2023

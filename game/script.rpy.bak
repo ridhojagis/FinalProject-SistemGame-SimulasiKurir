@@ -598,35 +598,35 @@ label Kantor:
                 $ inventory.removePaket(paket1)
                 $ jmlh_energi -= paket1.energi_cost
                 "Kamu mengambil Paket 1"
-                call fsm_updates from _call_fsm_updates
+                call fsm_updates
             "Ambil Paket 2" if (fsm_paket_kantor == 0 and fsm_paket_2 == 0):
                 $ fsm_paket_2 = 1
                 $ inventory.ambilPaket(paket2)
                 $ inventory.removePaket(paket2)
                 $ jmlh_energi -= paket2.energi_cost
                 "Kamu mengambil Paket 2"
-                call fsm_updates from _call_fsm_updates_1
+                call fsm_updates
             "Ambil Paket 3" if (fsm_paket_kantor == 0 and fsm_paket_3 == 0):
                 $ fsm_paket_3 = 1
                 $ inventory.ambilPaket(paket3)
                 $ inventory.removePaket(paket3)
                 $ jmlh_energi -= paket3.energi_cost
                 "Kamu mengambil Paket 3"
-                call fsm_updates from _call_fsm_updates_2
+                call fsm_updates
             "Ambil Paket 4" if (fsm_paket_kantor == 0 and fsm_paket_4 == 0):
                 $ fsm_paket_4 = 1
                 $ inventory.ambilPaket(paket4)
                 $ inventory.removePaket(paket4)
                 $ jmlh_energi -= paket4.energi_cost
                 "Kamu mengambil Paket 4"
-                call fsm_updates from _call_fsm_updates_3
+                call fsm_updates
             "Ambil Paket 5" if (fsm_paket_kantor == 0 and fsm_paket_5 == 0):
                 $ fsm_paket_5 = 1
                 $ inventory.ambilPaket(paket5)
                 $ inventory.removePaket(paket5)
                 $ jmlh_energi -= paket5.energi_cost
                 "Kamu mengambil Paket 5"
-                call fsm_updates from _call_fsm_updates_4
+                call fsm_updates
             "Ambil semua Paket" if (fsm_paket_kantor == 0):
                 $ fsm_paket = 1
                 if (fsm_paket_1 == 0):
@@ -655,7 +655,7 @@ label Kantor:
                     $ inventory.removePaket(paket5)
                     $ jmlh_energi -= paket5.energi_cost
                 "Kamu mengambil semua Paket yang ada di kantor"
-                call fsm_updates from _call_fsm_updates_5
+                call fsm_updates
 
     jump Kantor
 

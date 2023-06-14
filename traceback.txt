@@ -1,64 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {uang} in 'Rp.{uang}'.:
-  File "game/script.rpy", line 377, in script
-    "Gunakan Map yang ada di pojok kanan atas untuk berpindah lokasi."
-Exception: Unknown text tag 'uang'
+While running game code:
+  File "game/script.rpy", line 1185, in script
+    $ inventory.antarPaket(paket2)
+  File "game/script.rpy", line 1185, in <module>
+    $ inventory.antarPaket(paket2)
+  File "game/script.rpy", line 233, in antarPaket
+    self.item_paket.remove(item)
+ValueError: list.remove(x): x not in list
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 377, in script
-    "Gunakan Map yang ada di pojok kanan atas untuk berpindah lokasi."
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
-    display_say(who,
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 495, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\text\text.py", line 2109, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\text\text.py", line 627, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\text\text.py", line 1278, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag 'uang'
+  File "game/script.rpy", line 1185, in script
+    $ inventory.antarPaket(paket2)
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 1185, in <module>
+    $ inventory.antarPaket(paket2)
+  File "game/script.rpy", line 233, in antarPaket
+    self.item_paket.remove(item)
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\revertable.py", line 97, in do_mutation
+    return method(self, *args, **kwargs)
+ValueError: list.remove(x): x not in list
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 Simulasi_Kurir 1.0
-Wed Jun 14 18:00:53 2023
+Wed Jun 14 22:32:10 2023
