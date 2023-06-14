@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 152, in script
+    jump Gudang
+ScriptError: could not find label 'Gudang'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 152, in script
+    jump Gudang
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'Gudang'.
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.0.3.22090809
+Simulasi_Kurir 1.0
+Wed Jun 14 10:41:39 2023
