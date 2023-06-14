@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {gas} in "Image '%{gas}d \\%' not found.".:
-  File "game/script.rpy", line 287, in script
+While processing text tag {uang} in 'Rp.{uang}'.:
+  File "game/script.rpy", line 377, in script
     "Gunakan Map yang ada di pojok kanan atas untuk berpindah lokasi."
-Exception: Unknown text tag 'gas'
+Exception: Unknown text tag 'uang'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 287, in script
+  File "game/script.rpy", line 377, in script
     "Gunakan Map yang ada di pojok kanan atas untuk berpindah lokasi."
   File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
     renpy.exports.say(who, what, *args, **kwargs)
@@ -50,25 +50,15 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\transform.py", line 747, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\image.py", line 506, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\display\image.py", line 309, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
   File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\text\text.py", line 2109, in render
     virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
   File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\text\text.py", line 627, in __init__
     self.paragraphs = self.segment(text.tokens, style, renders, text)
   File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\text\text.py", line 1278, in segment
     raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag 'gas'
+Exception: Unknown text tag 'uang'
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 Simulasi_Kurir 1.0
-Wed Jun 14 17:04:21 2023
+Wed Jun 14 18:00:53 2023

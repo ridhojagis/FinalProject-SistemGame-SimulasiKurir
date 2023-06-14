@@ -6,101 +6,14 @@
 define a = Character("Aku")
 
 screen sc_navigasi:
-
     add "thunderbolt" xanchor 0.0 yanchor 0.0 xpos 0.01 ypos 0.01
     add "rupiah" xanchor 0.0 yanchor 0.0 xpos 0.11 ypos 0.01
     add "gas" xanchor 0.0 yanchor 0.0 xpos 0.26 ypos 0.01
 
-    # Text jumlah energi
-    if(jmlh_energi == 100 ):
-        text "100%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 95 ):
-        text "95%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 90 ):
-        text "90%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 85 ):
-        text "85%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 80 ):
-        text "80%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 75 ):
-        text "75%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 70 ):
-        text "70%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 65 ):
-        text "65%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 60 ):
-        text "60%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 55 ):
-        text "55%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 50 ):
-        text "50%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 45 ):
-        text "45%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 40 ):
-        text "40%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 35 ):
-        text "35%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 30 ):
-        text "30%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 25 ):
-        text "25%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 20 ):
-        text "20%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 15 ):
-        text "15%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 10 ):
-        text "10%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    elif(jmlh_energi == 5 ):
-        text "5%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-    else:
-        text "0%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
-
-    # Text jumlah uang
-    text "Rp.100000" xanchor 0.0 yanchor 0.0 xpos 0.15 ypos 0.02
-
-    # Text jumlah bensin
-    if(jmlh_bensin == 100 ):
-        text "100%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 95 ):
-        text "95%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 90 ):
-        text "90%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 85 ):
-        text "85%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 80 ):
-        text "80%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 75 ):
-        text "75%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 70 ):
-        text "70%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 65 ):
-        text "65%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 60 ):
-        text "60%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 55 ):
-        text "55%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 50 ):
-        text "50%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 45 ):
-        text "45%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 40 ):
-        text "40%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 35 ):
-        text "35%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 30 ):
-        text "30%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 25 ):
-        text "25%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 20 ):
-        text "20%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 15 ):
-        text "15%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 10 ):
-        text "10%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    elif(jmlh_bensin == 5 ):
-        text "5%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
-    else:
-        text "0%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    # Text jumlah energi, uang, dan bensin
+    text "{}%".format(jmlh_energi) xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    text "Rp.{}".format(jmlh_uang) xanchor 0.0 yanchor 0.0 xpos 0.15 ypos 0.02
+    text "{}%".format(jmlh_bensin) xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
 
     vbox:
         xalign 0.98
@@ -413,7 +326,6 @@ label lokasiperumdost:
 
     if _return == "go_kantor":
         $ renpy.jump_out_of_context("lok_kantor")
-
 
 label SPBU:
     $ fsm_lokasitempat==15

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 456: expected statement.
-    "Atas nama %(nama_paket)s, alamat tujuan di %(alamat_tujuan)s" +
-                                                                   ^
+File "game/script.rpy", line 9: 'init' is not a keyword argument or valid child for the screen statement.
+    init:
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Jun 14 17:42:17 2023
+Wed Jun 14 17:59:47 2023
