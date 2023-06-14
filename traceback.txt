@@ -1,22 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 152, in script
-    jump Gudang
-ScriptError: could not find label 'Gudang'.
+  File "game/script.rpy", line 289, in script
+    $ nama_paket = paket1.nama
+  File "game/script.rpy", line 289, in <module>
+    $ nama_paket = paket1.nama
+AttributeError: 'Paket' object has no attribute 'nama'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 152, in script
-    jump Gudang
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'Gudang'.
+  File "game/script.rpy", line 289, in script
+    $ nama_paket = paket1.nama
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\RidhoJagis\Downloads\Program\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 289, in <module>
+    $ nama_paket = paket1.nama
+AttributeError: 'Paket' object has no attribute 'nama'
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 Simulasi_Kurir 1.0
-Wed Jun 14 10:41:39 2023
+Wed Jun 14 15:16:43 2023

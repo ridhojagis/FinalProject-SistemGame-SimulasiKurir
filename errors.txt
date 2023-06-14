@@ -2,9 +2,65 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 57: invalid syntax
-        def add_paket(self, item)
-    
+File "game/script.rpy", line 259: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 274: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 320: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 331: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 342: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 353: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 364: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 375: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 386: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 397: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 408: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 419: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 430: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 441: expected statement.
+    fsm_bbm = 0
+            ^
+
+File "game/script.rpy", line 452: expected statement.
+    fsm_bbm = 0
+            ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Jun 14 10:40:06 2023
+Wed Jun 14 15:22:12 2023
