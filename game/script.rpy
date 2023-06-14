@@ -6,9 +6,101 @@
 define a = Character("Aku")
 
 screen sc_navigasi:
+
     add "thunderbolt" xanchor 0.0 yanchor 0.0 xpos 0.01 ypos 0.01
     add "rupiah" xanchor 0.0 yanchor 0.0 xpos 0.11 ypos 0.01
     add "gas" xanchor 0.0 yanchor 0.0 xpos 0.26 ypos 0.01
+
+    # Text jumlah energi
+    if(jmlh_energi == 100 ):
+        text "100%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 95 ):
+        text "95%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 90 ):
+        text "90%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 85 ):
+        text "85%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 80 ):
+        text "80%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 75 ):
+        text "75%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 70 ):
+        text "70%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 65 ):
+        text "65%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 60 ):
+        text "60%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 55 ):
+        text "55%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 50 ):
+        text "50%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 45 ):
+        text "45%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 40 ):
+        text "40%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 35 ):
+        text "35%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 30 ):
+        text "30%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 25 ):
+        text "25%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 20 ):
+        text "20%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 15 ):
+        text "15%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 10 ):
+        text "10%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    elif(jmlh_energi == 5 ):
+        text "5%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+    else:
+        text "0%" xanchor 0.0 yanchor 0.0 xpos 0.05 ypos 0.02
+
+    # Text jumlah uang
+    text "Rp.100000" xanchor 0.0 yanchor 0.0 xpos 0.15 ypos 0.02
+
+    # Text jumlah bensin
+    if(jmlh_bensin == 100 ):
+        text "100%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 95 ):
+        text "95%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 90 ):
+        text "90%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 85 ):
+        text "85%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 80 ):
+        text "80%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 75 ):
+        text "75%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 70 ):
+        text "70%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 65 ):
+        text "65%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 60 ):
+        text "60%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 55 ):
+        text "55%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 50 ):
+        text "50%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 45 ):
+        text "45%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 40 ):
+        text "40%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 35 ):
+        text "35%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 30 ):
+        text "30%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 25 ):
+        text "25%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 20 ):
+        text "20%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 15 ):
+        text "15%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 10 ):
+        text "10%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    elif(jmlh_bensin == 5 ):
+        text "5%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
+    else:
+        text "0%" xanchor 0.0 yanchor 0.0 xpos 0.3 ypos 0.02
 
     vbox:
         xalign 0.98
@@ -17,6 +109,59 @@ screen sc_navigasi:
             idle "btn_map.png"
             hover "btn_map_hover.png"
             action ui.callsinnewcontext("lokasitempat")
+
+screen sc_perumdos:   
+    vbox:
+        xalign 0.88
+        yalign 0.028
+        imagebutton:
+            idle "btn_door.png"
+            hover "btn_door_hover.png"
+            if (fsm_lokasitempat==8):
+                action ui.callsinnewcontext("lokasiperumdost")
+            elif (fsm_lokasitempat==9):
+                action ui.callsinnewcontext("lokasiperumdosu")
+
+screen map_perumdosu:
+    imagemap:
+        ground "perumdosu_ground.jpg"
+        hover "perumdosu_hover.jpg"
+
+        hotspot(589, 570, 300, 120) action Return("go_kantor")
+        hotspot(885, 570, 300, 120) action Return("go_kantor")
+        hotspot(885, 348, 300, 120) action Return("go_kantor")
+        hotspot(840, 85, 300, 120) action Return("go_kantor")
+
+        if (fsm_perumdosu==0):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.385 ypos 0.515
+        elif (fsm_perumdosu==1):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.445 ypos 0.515
+        elif (fsm_perumdosu==2):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.445 ypos 0.3
+        elif (fsm_perumdosu==3):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.415 ypos 0.085
+
+screen map_perumdost:
+    imagemap:
+        ground "perumdost_ground.jpg"
+        hover "perumdost_hover.jpg"
+
+        hotspot(510, 125, 300, 120) action Return("go_kantor")
+        hotspot(595, 289, 300, 120) action Return("go_kantor")
+        hotspot(915, 735, 300, 120) action Return("go_kantor")
+        hotspot(1425, 670, 300, 120) action Return("go_kantor")
+        hotspot(1745, 565, 190, 180) action Return("go_kantor")
+
+        if (fsm_perumdost==0):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.362 ypos 0.118
+        elif (fsm_perumdost==1):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.4 ypos 0.245
+        elif (fsm_perumdost==2):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.565 ypos 0.668
+        elif (fsm_perumdost==3):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.83 ypos 0.612
+        elif (fsm_perumdost==4):
+            add "marker disini" xanchor 0.0 yanchor 0.0 xpos 0.912 ypos 0.58
 
 screen map_lokasitempat:
     imagemap:
@@ -187,11 +332,11 @@ label start:
         bensin_60 = BBM("Bensin", 15000, 60)
         bensin_40 = BBM("Bensin", 10000, 40)
         bensin_20 = BBM("Bensin", 5000, 20)
-        paket1 = Paket("Paket Pak Andi", "Perumdos U, Kos U3", 0, 5, 20000)
-        paket2 = Paket("Paket Bu Ika", "Perumdos U, Kos U2", 0, 5, 25000)
-        paket3 = Paket("Paket Anita", "Perumdos T, Kos T2", 0, 5, 30000)
-        paket4 = Paket("Paket Septian", "Asrama", 0, 5, 15000)
-        paket5 = Paket("Paket Bu Rini", "Perumdos T, Kos T4", 0, 5, 10000)
+        paket1 = Paket("Pak Andi", "Perumdos U, Kos U3", 0, 5, 20000)
+        paket2 = Paket("Bu Ika", "Perumdos U, Kos U2", 0, 5, 25000)
+        paket3 = Paket("Anita", "Perumdos T, Kos T2", 0, 5, 30000)
+        paket4 = Paket("Septian", "Asrama", 0, 5, 15000)
+        paket5 = Paket("Bu Rini", "Perumdos T, Kos T4", 0, 5, 10000)
         inventory.addPaket(paket1)
         inventory.addPaket(paket2)
         inventory.addPaket(paket3)
@@ -215,6 +360,7 @@ label start:
     "Kamu dapat menggunakan uang yang kamu punya untuk membeli bensin di SPBU."
     "Dan juga kamu dapat membeli berbagai makanan yang ada di K1 Mart atau Kantin dengan uang tersebut."
 
+    $ jmlh_energi = inventory.energi
     $ jmlh_uang = inventory.uang
     $ jmlh_bensin = inventory.bensin
     $ jmlh_paket = len(inventory.paket_kantor)
@@ -227,23 +373,25 @@ label start:
 
     show screen sc_navigasi
     "Gunakan Map yang ada di pojok kanan atas untuk berpindah lokasi."
-    "Saat ini kamu memiliki uang sebanyak Rp. %(jmlh_uang)d dan bensin sebanyak %(jmlh_bensin)d."
+    "Saat ini kamu memiliki uang sebanyak Rp. %(jmlh_uang)d dan bensin sebanyak %(jmlh_bensin)d\%."
 
     scene bg_jalan
     with fade
-    a "Hari ini masih ada %(jmlh_paket)d paket di Kantor"
-    a "Aku harus mengantarkan semua paket itu sebelum jam 5 sore"
-    a "Saat ini aku belum membawa paket apapun, aku harus mengambilnya terlebih dahulu di Kantor"
+
+    a "Hari ini masih ada %(jmlh_paket)s paket di Kantor"
+    a "Aku harus mengantarkan semua paket itu hari ini"
+    if (paket_dibawa <= 0):
+        a "Saat ini aku belum membawa paket apapun, aku harus mengambilnya terlebih dahulu di Kantor"
 
     menu:
         "Pergi ke SPBU":
-            $ jmlh_bensin -= 10
+            $ jmlh_bensin -= 5
             jump SPBU
         "Pergi ambil paket di Kantor":
-            $ jmlh_bensin -= 10
+            $ jmlh_bensin -= 5
             jump Kantor
 
-    return
+    jump start
 
 label lokasitempat:
     hide screen sc_navigasi
@@ -251,6 +399,20 @@ label lokasitempat:
 
     if _return == "go_kantor":
         $ renpy.jump_out_of_context("Kantor")
+
+label lokasiperumdosu:
+    hide sc_perumdos
+    call screen map_perumdosu
+
+    if _return == "go_kantor":
+        $ renpy.jump_out_of_context("lok_kantor")
+
+label lokasiperumdost:
+    hide sc_perumdos
+    call screen map_perumdost
+
+    if _return == "go_kantor":
+        $ renpy.jump_out_of_context("lok_kantor")
 
 
 label SPBU:
@@ -261,7 +423,7 @@ label SPBU:
         jump GameOver
     scene bg_spbu
     "Kamu sedang berada di SPBU"
-    "Saat ini kamu memiliki uang sebanyak Rp. %(jmlh_uang)d dan bensin sebanyak %(jmlh_bensin)d."
+    "Saat ini kamu memiliki uang sebanyak Rp. %(jmlh_uang)d dan bensin sebanyak %(jmlh_bensin)d\%."
 
     jump SPBU
 
@@ -284,18 +446,30 @@ label Kantor:
         $ fsm_paket_kantor = 1
         "Kamu sedang berada di kantor, Sudah tidak ada paket yang tersisa di Kantor."
 
+    "Saat ini kamu memiliki uang sebanyak Rp. %(jmlh_uang)d dan bensin sebanyak %(jmlh_bensin)d\%."
+
     if (paket_dibawa > 0):
-        "Kamu sedang membawa beberapa paket yaitu:"
+        "Kamu sedang membawa %(paket_dibawa)d paket yaitu:"
         if (fsm_paket_1 == 1):
             $ nama_paket = paket1.nama
             $ alamat_tujuan = paket1.lokasi_antar
-            "%(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
+            "Atas nama %(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
         if (fsm_paket_2 == 1):
             $ nama_paket = paket2.nama
             $ alamat_tujuan = paket2.lokasi_antar
-            "%(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
-
-    "Saat ini kamu memiliki uang sebanyak Rp. %(jmlh_uang)d dan bensin sebanyak %(jmlh_bensin)d."
+            "Atas nama %(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
+        if (fsm_paket_3 == 1):
+            $ nama_paket = paket3.nama
+            $ alamat_tujuan = paket3.lokasi_antar
+            "Atas nama %(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
+        if (fsm_paket_4 == 1):
+            $ nama_paket = paket4.nama
+            $ alamat_tujuan = paket4.lokasi_antar
+            "Atas nama %(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
+        if (fsm_paket_5 == 1):
+            $ nama_paket = paket5.nama
+            $ alamat_tujuan = paket5.lokasi_antar
+            "Atas nama %(nama_paket)s, alamat tujuan di %(alamat_tujuan)s"
 
     if (fsm_paket_kantor == 0):
         menu:
@@ -303,13 +477,36 @@ label Kantor:
                 $ fsm_paket_1 = 1
                 $ inventory.ambilPaket(paket1)
                 $ inventory.removePaket(paket1)
+                $ jmlh_energi -= paket1.energi_cost
                 "Kamu mengambil Paket 1"
                 call fsm_updates
             "Ambil Paket 2" if (fsm_paket_kantor == 0 and fsm_paket_2 == 0):
                 $ fsm_paket_2 = 1
                 $ inventory.ambilPaket(paket2)
                 $ inventory.removePaket(paket2)
+                $ jmlh_energi -= paket2.energi_cost
                 "Kamu mengambil Paket 2"
+                call fsm_updates
+            "Ambil Paket 3" if (fsm_paket_kantor == 0 and fsm_paket_3 == 0):
+                $ fsm_paket_3 = 1
+                $ inventory.ambilPaket(paket3)
+                $ inventory.removePaket(paket3)
+                $ jmlh_energi -= paket3.energi_cost
+                "Kamu mengambil Paket 3"
+                call fsm_updates
+            "Ambil Paket 4" if (fsm_paket_kantor == 0 and fsm_paket_4 == 0):
+                $ fsm_paket_4 = 1
+                $ inventory.ambilPaket(paket4)
+                $ inventory.removePaket(paket4)
+                $ jmlh_energi -= paket4.energi_cost
+                "Kamu mengambil Paket 4"
+                call fsm_updates
+            "Ambil Paket 5" if (fsm_paket_kantor == 0 and fsm_paket_5 == 0):
+                $ fsm_paket_5 = 1
+                $ inventory.ambilPaket(paket5)
+                $ inventory.removePaket(paket5)
+                $ jmlh_energi -= paket5.energi_cost
+                "Kamu mengambil Paket 5"
                 call fsm_updates
 
     jump Kantor
@@ -415,6 +612,9 @@ label Perpus:
 
 label Perumdos_U:
     $ fsm_lokasitempat==9
+    $ fsm_perumdosu = 0
+    show screen sc_navigasi
+    show screen sc_perumdos
     if (jmlh_bensin <= 0):
         $ fsm_bbm = 0
     if (fsm_bbm == 0):
@@ -426,6 +626,9 @@ label Perumdos_U:
 
 label Perumdos_T:
     $ fsm_lokasitempat==8
+    $ fsm_perumdosu = 0
+    show screen sc_navigasi
+    show screen sc_perumdos
     if (jmlh_bensin <= 0):
         $ fsm_bbm = 0
     if (fsm_bbm == 0):
